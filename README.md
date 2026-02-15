@@ -66,7 +66,7 @@ school-cafe/<br>
 Доступные скрипты<br>
 
 Файл		Назначение<br>
-
+<br>
 install.bat	Полная установка проекта<br>
 start.bat	Запуск серверов<br>
 stop.bat	Остановка серверов      <br>
@@ -75,6 +75,7 @@ reset-db.bat	Сброс базы данных<br>
 check.bat	Проверка установки<br>
 
 🔑 Тестовые учетные записи<br>
+<br>
 Роль	            Email	             Пароль<br>
 👨‍🎓 Ученик	      student@school.ru	 password123<br>
 👨‍🍳 Повар 	      cook@school.ru	    password123<br>
