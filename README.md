@@ -6,167 +6,79 @@
 
 Веб-приложение для учёта и контроля питания в школьной столовой с тремя уровнями доступа: ученик, повар, администратор.
 
-## ✨ Возможности системы
+## 📁 Структура проекта<br>
 
-### 👨‍🎓 Для учеников
-- Регистрация и авторизация
-- Просмотр меню завтраков и обедов
-- Оплата питания (разовый платёж или абонемент)
-- Создание заказов на питание
-- Указание пищевых аллергий и предпочтений
-- Просмотр истории питания
-- Оставление отзывов о блюдах
-- Отслеживание баланса
-
-### 👨‍🍳 Для поваров
-- Просмотр ожидающих заказов
-- Подтверждение выдачи блюд
-- Контроль остатков продуктов
-- Создание заявок на закупку продуктов
-- Просмотр статистики выдач
-
-### 👨‍💼 Для администраторов
-- Просмотр статистики оплат и посещаемости
-- Согласование заявок на закупку
-- Управление остатками продуктов
-- Просмотр и модерация отзывов
-- Одобрение заявок на регистрацию
-- Формирование отчетов по питанию и затратам
-- Управление пользователями
-
-## 🛠 Технологический стек
-
-### Frontend
-- **Vue.js 3** - прогрессивный JavaScript фреймворк
-- **Vue Router** - маршрутизация
-- **Axios** - HTTP клиент
-- **Chart.js** - визуализация данных
-- **Font Awesome** - иконки
-
-### Backend
-- **Node.js** - среда выполнения
-- **Express** - веб-фреймворк
-- **SQLite3** - база данных
-- **bcryptjs** - хеширование паролей
-- **jsonwebtoken** - JWT аутентификация
-- **exceljs** - генерация Excel отчетов
-
-## 📁 Структура проекта
-
-school-cafe/
-├── backend/ # Серверная часть
-│ ├── server.js # Главный файл сервера
-│ ├── db.js # Работа с базой данных
-│ ├── auth.js # Аутентификация
-│ └── package.json # Зависимости бэкенда
-├── frontend/ # Клиентская часть
-│ ├── index.html # Главная HTML страница
-│ ├── src/ # Исходный код
-│ │ ├── main.js # Точка входа
-│ │ ├── App.vue # Корневой компонент
-│ │ ├── router.js # Маршрутизация
-│ │ ├── api.js # API клиент
-│ │ └── views/ # Компоненты страниц
-│ │ ├── Login.vue
-│ │ ├── StudentDashboard.vue
-│ │ ├── CookDashboard.vue
-│ │ ├── AdminDashboard.vue
-│ │ ├── RegistrationRequests.vue
-│ │ └── Menu.vue
-│ ├── package.json # Зависимости фронтенда
-│ └── vite.config.js # Конфигурация Vite
-├── database.db # Файл базы данных
-├── .gitignore # Игнорируемые файлы Git
-├── README.md # Документация
-└── *.bat # Скрипты запуска
+school-cafe/<br>
+├── backend/ # Серверная часть<br>
+│ ├── server.js # Главный файл сервера<br>
+│ ├── db.js # Работа с базой данных<br>
+│ ├── auth.js # Аутентификация<br>
+│ └── package.json # Зависимости бэкенда<br>
+├── frontend/ # Клиентская часть<br>
+│ ├── index.html # Главная HTML страница<br>
+│ ├── src/ # Исходный код<br>
+│ │ ├── main.js # Точка входа<br>
+│ │ ├── App.vue # Корневой компонент<br>
+│ │ ├── router.js # Маршрутизация<br>
+│ │ ├── api.js # API клиент<br>
+│ │ └── views/ # Компоненты страниц<br>
+│ │ ├── Login.vue<br>
+│ │ ├── StudentDashboard.vue<br>
+│ │ ├── CookDashboard.vue <br>
+│ │ ├── AdminDashboard.vue <br>
+│ │ ├── RegistrationRequests.vue <br>
+│ │ └── Menu.vue <br>
+│ ├── package.json # Зависимости фронтенда <br>
+│ └── vite.config.js # Конфигурация Vite <br>
+├── database.db # Файл базы данных <br>
+├── .gitignore # Игнорируемые файлы Git <br>
+├── README.md # Документация <br>
+└── *.bat # Скрипты запуска <br>
 
 
-## 💻 Требования к системе
+ 💻 Требования к системе<br>
 
-- **Node.js** версии 16.0.0 или выше
-- **npm** версии 8.0.0 или выше
-- **Операционная система**: Windows, macOS или Linux
-- **Браузер**: Chrome, Firefox, Edge или Safari (последние версии)
+- Node.js версии 16.0.0 или выше<br>
+- npm версии 8.0.0 или выше<br>
+- Операционная система: Windows, macOS или Linux<br>
+- Браузер: Chrome, Firefox, Edge или Safari (последние версии)<br>
 
-## 🚀 Установка и запуск
+ 🚀 Установка и запуск<br>
 
-### Быстрый старт (рекомендуется)
+ Быстрый старт (рекомендуется)<br>
 
-1. **Скачайте или клонируйте репозиторий**
-   ```bash
-   git clone https://github.com/Danilvilk/school-cafe
-   cd school-cafe
-2. Запустите установку
+1. Скачайте или клонируйте репозиторий<br>
+   ```bash<br>
+   git clone https://github.com/Danilvilk/school-cafe<br>
+   cd school-cafe <br>
+2. Запустите установку<br>
 
-Просто дважды кликните на файл install.bat
-3. Запустите проект
+Просто дважды кликните на файл install.bat <br>
+3. Запустите проект<br>
 
-Дважды кликните на файл start.bat
-4. Откройте браузер
+Дважды кликните на файл start.bat <br>
+4. Откройте браузер<br>
 
-Перейдите по адресу: http://localhost:5173
+Перейдите по адресу: http://localhost:5173  <br>
 
 
 
-Доступные скрипты
+Доступные скрипты<br>
 
-Файл		Назначение
+Файл		Назначение<br>
 
-install.bat	Полная установка проекта
-start.bat	Запуск серверов
-stop.bat	Остановка серверов
-clean.bat	Очистка проекта
-reset-db.bat	Сброс базы данных
-check.bat	Проверка установки
+install.bat	Полная установка проекта<br>
+start.bat	Запуск серверов<br>
+stop.bat	Остановка серверов      <br>
+clean.bat	Очистка проекта<br>
+reset-db.bat	Сброс базы данных<br>
+check.bat	Проверка установки<br>
 
-🔑 Тестовые учетные записи
-Роль	Email	Пароль
-👨‍🎓 Ученик	student@school.ru	password123
-👨‍🍳 Повар	cook@school.ru	password123
-👨‍💼 Администратор	admin@school.ru	password123
+🔑 Тестовые учетные записи<br>
+Роль	            Email	             Пароль<br>
+👨‍🎓 Ученик	      student@school.ru	 password123<br>
+👨‍🍳 Повар 	      cook@school.ru	    password123<br>
+👨‍💼 Администратор	admin@school.ru	 password123
 
-
-🌐 Развертывание на сервере
-С использованием PM2
-
-Установите PM2 глобально
-
-npm install -g pm2
-
-Запустите приложение через PM2
-
-pm2 start ecosystem.config.js
-
-Настройте автозапуск
-
-pm2 startup
-pm2 save
-
-
-
-Настройка Nginx (для production сервера)
-
-server {
-    listen 80;
-    server_name ваш-домен.ru;
-
-    location / {
-        proxy_pass http://localhost:5173;
-        proxy_http_version 1.1;
-        proxy_set_header Upgrade $http_upgrade;
-        proxy_set_header Connection 'upgrade';
-        proxy_set_header Host $host;
-        proxy_cache_bypass $http_upgrade;
-    }
-
-    location /api {
-        proxy_pass http://localhost:3000;
-        proxy_http_version 1.1;
-        proxy_set_header Upgrade $http_upgrade;
-        proxy_set_header Connection 'upgrade';
-        proxy_set_header Host $host;
-        proxy_cache_bypass $http_upgrade;
-    }
-}
 
 
