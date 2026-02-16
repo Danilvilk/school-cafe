@@ -23,7 +23,7 @@
 
 1. **Скачайте проект**
    ```bash
-   git clone https://github.com/danilvilk/school-cafe
+   git clone https://github.com/Danilvilk/school-cafe
    cd school-cafe
 
 2. **Запустите установку**
