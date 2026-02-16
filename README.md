@@ -64,3 +64,7 @@
 Ученик	student@school.ru	password123<br>
 Повар	cook@school.ru	password123<br>
 Администратор	admin@school.ru	password123<br>
+
+### Ссылка на видеоролик
+
+https://rutube.ru/video/private/bd8034d3b96ddf8f68c7dc78d97ba1df/?p=dwgPQx0mLbNYW9Y0sgQgMg
